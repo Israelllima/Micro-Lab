@@ -1,0 +1,17 @@
+@page "/inserelogin"
+
+<h1 @onclick="CarregarTitulo">Componente 01- Micro Lab</h1>
+
+<p>@titulo</p>
+
+
+@code {
+
+    private string? titulo;
+
+    private void CarregarTitulo()
+    {
+        titulo = "lista de Usuários Cadastrados";
+
+    }
+}
